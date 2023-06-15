@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "input1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "operator",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "input2",
+						"type": "uint256"
+					}
+				],
+				"name": "calculate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "str2",
+						"type": "string"
+					}
+				],
+				"name": "compare_strings",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"condition_math.sol": "condition_math"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"condition_math.sol": {
+			"keccak256": "0xec000793cecfbb56cc35a8ed18feb71a5a9082208f0dab26af943d085b47b364",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d4c93cb63ad8a009de9304ade89863e2fb85fa9d67e81ee18187ff2f2520c606",
+				"dweb:/ipfs/QmbQYymJtzXHLzrqU5yUTsdKuU9KFNm4rnNxggmPVuvXGn"
+			]
+		}
+	},
+	"version": 1
+}
